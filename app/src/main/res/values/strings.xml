@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Zevent</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textoZ">Soy una aplicación dedicada a la administración de invitados para todo evento privado. </string>
+    <string name="acerca">Acerca de</string>
+    <string name="inicio">Inicio</string>
+    <string name="telefono"> </string>
+    <string name="nombre"> </string>
+    <string name="email"> </string>
+    <string name="num">(0/10)</string>
+    <string name="inombre">Ingrese el nombre</string>
+    <string name="icorreo">Ingrese el correo electronico</string>
+    <string name="itelefono">Ingrese el numero telefonico</string>
+    <string name="idescripcion">Ingrese la descripcion</string>
+    <string name="orden"> </string>
+    <string name="descripcion"> </string>
+
+    <string-array name="Roles">
+        <item>Organizador</item>
+        <item>Fotografo</item>
+        <item>Participantes</item>
+    </string-array>
+</resources>

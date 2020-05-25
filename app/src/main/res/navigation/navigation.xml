@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.lab7.inicio.TitleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment_to_registro"
+            app:destination="@id/registro" />
+    </fragment>
+    <fragment
+        android:id="@+id/registro"
+        android:name="com.example.lab7.registro.Registro"
+        android:label="Registro"
+        tools:layout="@layout/fragment_registro"/>
+    <fragment
+        android:id="@+id/resultados"
+        android:name="com.example.lab7.resultados.Resultados"
+        android:label="Resultados"
+        tools:layout="@layout/fragment_resultados">
+        <action
+            android:id="@+id/action_resultados_to_titleFragment"
+            app:destination="@id/titleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/acerca"
+        android:name="com.example.lab7.inicio.Acerca"
+        android:label="Acerca"
+        tools:layout="@layout/fragment_acerca"/>
+    <fragment
+        android:id="@+id/invitados"
+        android:name="com.example.lab7.invitados.Invitados"
+        android:label="Invitados"
+        tools:layout="@layout/fragment_invitados"/>
+    <fragment
+        android:id="@+id/agregar"
+        android:name="com.example.lab7.nuevoI.Agregar"
+        android:label="Agregar"
+        tools:layout="@layout/fragment_agregar"/>
+    <fragment
+        android:id="@+id/agregarRol"
+        android:name="com.example.lab7.nuevoR.AgregarRol"
+        android:label="AgregarRol"
+        tools:layout="@layout/fragment_agregar_rol"/>
+    <fragment
+        android:id="@+id/roles"
+        android:name="com.example.lab7.roles.Roles"
+        android:label="Roles"
+        tools:layout="@layout/fragment_roles"/>
+
+
+</navigation>

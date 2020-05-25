@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cantidad"
+        android:title="@string/num"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/check"
+        android:icon="@drawable/si"
+        android:title="si"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/x"
+        android:icon="@drawable/no"
+        android:title="no"
+        app:showAsAction="ifRoom"></item>
+
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical">20dp</dimen>
+    <dimen name="horizontal">12dp</dimen>
+    <dimen name="b_padding">20dp</dimen>
+    <dimen name="b_text">20sp</dimen>
+    <dimen name="t_padding">50dp</dimen>
+    <dimen name="t_text">30sp</dimen>
+    <dimen name="i_alto">170dp</dimen>
+</resources>

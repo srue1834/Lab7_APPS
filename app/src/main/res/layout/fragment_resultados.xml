@@ -1,0 +1,109 @@
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.TitleFragment">
+
+    <data>
+        <variable
+            name="ResultadosViewModel"
+            type="com.example.lab7.resultados.ResultadosViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AFDADA"
+        >
+
+        <TextView
+            android:id="@+id/registrados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal"
+            android:layout_marginEnd="@dimen/horizontal"
+            android:layout_marginBottom="340dp"
+            android:fontFamily="@font/adamina"
+            android:paddingStart="@dimen/t_padding"
+            android:paddingEnd="@dimen/t_padding"
+            android:text="Registrados:"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/inivitados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal"
+            android:layout_marginEnd="@dimen/horizontal"
+            android:layout_marginBottom="420dp"
+            android:fontFamily="@font/adamina"
+            android:paddingStart="@dimen/t_padding"
+            android:paddingEnd="@dimen/t_padding"
+            android:text="Inivitados: 8"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/registro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal"
+            android:layout_marginEnd="@dimen/horizontal"
+            android:layout_marginBottom="550dp"
+            android:fontFamily="@font/adamina"
+            android:paddingStart="@dimen/t_padding"
+            android:paddingEnd="@dimen/t_padding"
+            android:text="Registro"
+            android:textColor="#000000"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/reinciarB"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal"
+            android:layout_marginEnd="@dimen/horizontal"
+            android:layout_marginBottom="180dp"
+            android:paddingStart="@dimen/b_padding"
+            android:paddingEnd="@dimen/b_padding"
+            android:textColor="@android:color/white"
+            android:background="#ED7474"
+            android:text="Reiniciar"
+            android:textSize="@dimen/b_text"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Button
+            android:id="@+id/inivitadosB"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal"
+            android:layout_marginEnd="@dimen/horizontal"
+            android:layout_marginBottom="120dp"
+            android:paddingStart="@dimen/b_padding"
+            android:paddingEnd="@dimen/b_padding"
+            android:textColor="@android:color/white"
+            android:background="#ED7474"
+            android:text="Ver invitados"
+            android:textSize="@dimen/b_text"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

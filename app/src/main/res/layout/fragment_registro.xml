@@ -1,0 +1,72 @@
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.TitleFragment">
+
+    <data>
+        <variable
+            name="RegistroViewModel"
+            type="com.example.lab7.registro.RegistroViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AFDADA">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal"
+            android:layout_marginEnd="@dimen/horizontal"
+            android:layout_marginBottom="300dp"
+            android:fontFamily="@font/adamina"
+            android:paddingStart="@dimen/t_padding"
+            android:paddingEnd="@dimen/t_padding"
+            android:text="@string/email"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal"
+            android:layout_marginEnd="@dimen/horizontal"
+            android:layout_marginBottom="350dp"
+            android:fontFamily="@font/adamina"
+            android:paddingStart="@dimen/t_padding"
+            android:paddingEnd="@dimen/t_padding"
+            android:text="@string/telefono"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal"
+            android:layout_marginEnd="@dimen/horizontal"
+            android:layout_marginBottom="500dp"
+            android:fontFamily="@font/adamina"
+            android:paddingStart="@dimen/t_padding"
+            android:paddingEnd="@dimen/t_padding"
+            android:text="@string/nombre"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
